@@ -7,7 +7,7 @@ on:
 
 jobs:
   process-pr:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     name: Process pull request
     steps:
       - name: Process pull request
